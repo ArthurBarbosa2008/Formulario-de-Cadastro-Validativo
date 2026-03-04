@@ -1,0 +1,27 @@
+.form-header h1{
+    font-size: 35px;
+    font-family: "League Spartan", sans-serif;
+    color: #504137;
+    border: none;
+}
+
+.error {
+    font-family: "Open Sans", sans-serif;
+    color: red;
+    font-size: 12px;
+}
+
+.submit {
+    color: green;
+    font-size: 12px;
+}
+
+#progress-container p{
+    font-size: 12px;
+}
+
+@media  (max-width: 400px) {
+    .form-header h1{
+        font-size: 27.5px;
+    }
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/images/icon.png">
+    <title>Amanda doces</title>
+</head>
+<body>
+    <main class="container">
+        <div class="form-header">
+            <h1>CRIE SUA CONTA</h1>
+            <img src="assets/images/icon.png">
+        </div>
+
+        <form>
+            <div class="input-container">
+                <label for="username">Nome de usuário</label>
+                <input 
+                    type="text" 
+                    placeholder="" 
+                    id="username" 
+                    name="username"
+                >
+                <img src="assets/images/user-ico.png">
+            </div>
+            <span id="username-error" class="error"></span>
+
+            <div class="input-container">
+                <label for="email">E-mail</label>
+                <input 
+                    type="email" 
+                    placeholder="" 
+                    id="email" 
+                    name="email"
+                >
+                <img src="assets/images/email-ico.png">
+            </div>
+            <span id="email-error" class="error"></span>
+
+            <div class="input-container">
+                <label>Gênero</label>
+                <select placeholder=" " id="gender" name="gender">
+                    <option value="" selected></option>
+                    <option value="Homem">Homem</option>
+                    <option value="Mulher">Mulher</option>
+                    <option value="Outro">Outro</option>
+                </select>
+                <img src="assets/images/gender-ico.png">
+            </div>
+            <span id="gender-error" class="error"></span>
+
+            <div class="input-container">
+                <label>Data de nascimento</label>
+                <input 
+                    type="date" 
+                    placeholder=" "
+                    id="data"
+                    name="data"
+                >  
+            </div>
+            <span id="data-error" class="error"></span>
+
+            <div class="input-container">
+                <label>Senha</label>
+                <input 
+                    type="password" 
+                    placeholder="" 
+                    id="senha"
+                    name="senha"
+                >
+                <img src="assets/images/passworHide-ico.png" id="senha-ico">
+            </div>
+            <span id="senha-error" class="error"></span>
+
+            <div class="input-container">
+                <label>Confirme a senha</label>
+                <input 
+                    type="password" 
+                    placeholder="" 
+                    id="confirmar"
+                    name="confirmar"
+                >
+                <img src="assets/images/passworHide-ico.png" id="confirmar-ico">
+            </div>
+            <span id="confirmar-error" class="error"></span>           
+
+            <div>
+                <button type="submit" id="cadastrar">Cadastrar</button>
+            </div>
+            <div>
+                <button type="button" id="login">Ir para login</button>
+            </div>
+            <span class="submit"></span>
+        </form>
+    </main>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
