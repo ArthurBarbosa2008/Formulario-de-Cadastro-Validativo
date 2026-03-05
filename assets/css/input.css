@@ -21,6 +21,13 @@
     transition: 0.4s;
 }
 
+input[type="date"]::-webkit-calendar-picker-indicator{
+    position: absolute;
+    right: 35px;
+    opacity: 0;
+    z-index: 100;
+}
+
 .input-container img{
     width: 20px;
 }
